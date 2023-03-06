@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="246px" preserveAspectRatio="none" style="width:295px;height:246px;background:#FFFFFF;" version="1.1" viewBox="0 0 295 246" width="295px" zoomAndPan="magnify"><defs/><g><!--MD5=[4208e7b8ec36bfd7f487659911feef0a]
+class IChair--><g id="elem_IChair"><rect codeLine="2" fill="#F1F1F1" height="86.1358" id="IChair" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="123" x="86" y="7"/><ellipse cx="124.4" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M126.4938,29.5 L121.5875,29.5 L121.5875,28.125 L123.0094,27.8125 L123.0094,18.5313 L121.5875,18.1875 L121.5875,16.8281 L126.4938,16.8281 L126.4938,18.1875 L125.0719,18.5313 L125.0719,27.8125 L126.4938,28.125 L126.4938,29.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="39" x="143.6" y="28.432">IChair</text><line style="stroke:#181818;stroke-width:0.5;" x1="87" x2="208" y1="39" y2="39"/><line style="stroke:#181818;stroke-width:0.5;" x1="87" x2="208" y1="47" y2="47"/><ellipse cx="97" cy="62.034" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="106" y="65.9659">hasLegs(): void</text><ellipse cx="97" cy="81.1019" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="106" y="85.0339">sitOn(): void</text></g><!--MD5=[d36c1d5ab210b3f7e2eb853e9ac0457d]
+class VictorianChair--><g id="elem_VictorianChair"><rect codeLine="7" fill="#F1F1F1" height="86.1358" id="VictorianChair" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="123" x="7" y="153"/><ellipse cx="22.45" cy="169" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M22.5594,164.2813 Q21.6375,164.2813 20.9031,164.5938 Q20.1844,164.9063 19.6844,165.5 Q19.1844,166.0781 18.9031,166.9531 Q18.6375,167.8281 18.6375,168.9219 Q18.6375,170.3594 19.075,171.4063 Q19.5281,172.4531 20.3719,173 Q21.2313,173.5469 22.5438,173.5469 Q23.325,173.5469 24.0125,173.4219 Q24.7156,173.2813 25.7156,172.9688 L25.7156,174.8438 Q24.8563,175.1719 24.0906,175.2969 Q23.3406,175.4219 22.325,175.4219 Q20.4031,175.4219 19.0906,174.625 Q17.7938,173.8125 17.1375,172.3438 Q16.4813,170.8594 16.4813,168.8906 Q16.4813,167.4688 16.8719,166.2969 Q17.2781,165.1094 18.0594,164.2344 Q18.8406,163.3594 19.9813,162.8906 Q21.1219,162.4063 22.5906,162.4063 Q23.5438,162.4063 24.4344,162.6094 Q25.3406,162.7969 26.2781,163.2656 L25.45,165.0469 Q24.6688,164.6719 24.0125,164.4844 Q23.3563,164.2813 22.5594,164.2813 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="36.55" y="174.432">VictorianChair</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="129" y1="185" y2="185"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="129" y1="193" y2="193"/><ellipse cx="18" cy="208.034" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="27" y="211.9659">hasLegs(): void</text><ellipse cx="18" cy="227.1019" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="27" y="231.0339">sitOn(): void</text></g><!--MD5=[4ea9d1ec6611d1d82b3acef61e3edcfd]
+class ModernChair--><g id="elem_ModernChair"><rect codeLine="12" fill="#F1F1F1" height="86.1358" id="ModernChair" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="123" x="165" y="153"/><ellipse cx="183.15" cy="169" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M183.2594,164.2813 Q182.3375,164.2813 181.6031,164.5938 Q180.8844,164.9063 180.3844,165.5 Q179.8844,166.0781 179.6031,166.9531 Q179.3375,167.8281 179.3375,168.9219 Q179.3375,170.3594 179.775,171.4063 Q180.2281,172.4531 181.0719,173 Q181.9313,173.5469 183.2438,173.5469 Q184.025,173.5469 184.7125,173.4219 Q185.4156,173.2813 186.4156,172.9688 L186.4156,174.8438 Q185.5563,175.1719 184.7906,175.2969 Q184.0406,175.4219 183.025,175.4219 Q181.1031,175.4219 179.7906,174.625 Q178.4938,173.8125 177.8375,172.3438 Q177.1813,170.8594 177.1813,168.8906 Q177.1813,167.4688 177.5719,166.2969 Q177.9781,165.1094 178.7594,164.2344 Q179.5406,163.3594 180.6813,162.8906 Q181.8219,162.4063 183.2906,162.4063 Q184.2438,162.4063 185.1344,162.6094 Q186.0406,162.7969 186.9781,163.2656 L186.15,165.0469 Q185.3688,164.6719 184.7125,164.4844 Q184.0563,164.2813 183.2594,164.2813 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="197.85" y="174.432">ModernChair</text><line style="stroke:#181818;stroke-width:0.5;" x1="166" x2="287" y1="185" y2="185"/><line style="stroke:#181818;stroke-width:0.5;" x1="166" x2="287" y1="193" y2="193"/><ellipse cx="176" cy="208.034" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="185" y="211.9659">hasLegs(): void</text><ellipse cx="176" cy="227.1019" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="185" y="231.0339">sitOn(): void</text></g><!--MD5=[8b415d8455a5f6bb81fe950ffde42fb0]
+reverse link IChair to VictorianChair--><g id="link_IChair_VictorianChair"><path codeLine="17" d="M114.63,110.92 C106.93,124.94 98.9,139.59 91.73,152.66 " fill="none" id="IChair-backto-VictorianChair" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="108.68,107.21,124.44,93.04,120.95,113.94,108.68,107.21" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9bba8cfa4d07eae35b08b81b1c24493b]
+reverse link IChair to ModernChair--><g id="link_IChair_ModernChair"><path codeLine="18" d="M180.37,110.92 C188.07,124.94 196.1,139.59 203.27,152.66 " fill="none" id="IChair-backto-ModernChair" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="174.05,113.94,170.56,93.04,186.32,107.21,174.05,113.94" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[67d5b5a6a478b42109f417e4b92ae491]
+@startuml
+
+interface IChair {
+    +hasLegs(): void
+    +sitOn(): void
+}
+
+class VictorianChair {
+    +hasLegs(): void
+    +sitOn(): void
+}
+
+class ModernChair {
+    +hasLegs(): void
+    +sitOn(): void
+}
+
+IChair <|- - VictorianChair
+IChair <|- - ModernChair
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>
