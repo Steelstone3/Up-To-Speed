@@ -6,7 +6,7 @@ Tutorials on modern software concepts
 
 Focus | Topic | Prerequisites | Sub-Topics | Approach
 :-- | :--: | :--: | :--: | :--:
-Coding Fundamentals | Programming Language Basics | None | Datatypes, Datastructures, Language Idioms | Theory
+Language Understanding | Programming Language Basics | None | Datatypes, Datastructures, Language Idioms | Theory
 Language Understanding | C# Defaults | None | Type Defaults Of C# | Practical
 Language Understanding | C# Language Idioms | None | Linq | Practical
 Version Control | Using version control | None | Using git and git frontends, branching strategy | Hybrid
