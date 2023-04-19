@@ -9,7 +9,6 @@ C# is a strongly typed language, which means that all variables must have a spec
 Type | Represents | Range | Default Value
 :-- | :--: | :--: | :--:
 bool | Boolean value | True or False | False
-
 byte | 8-bit unsigned integer | 0 to 255 | 0
 char | 16-bit Unicode character | U +0000 to U +ffff | '\0'
 decimal | 128-bit precise decimal values with 28-29 significant digits | (-7.9 x 1028 to 7.9 x 1028) / 100 to 28 | 0.0M
