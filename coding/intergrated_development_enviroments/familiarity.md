@@ -40,11 +40,11 @@ The most commonly used version control system is "Git". This tool is both powerf
 >
 > - Rebasing to the latest changes on a branch
 
-This is covered in more depth under [a relative link](../../version_control/version_control.md).
+This is covered in more depth under [version_control.md](../../version_control/version_control.md).
 
 IDEs often have plugins for or directly integrate "Git frontends" within the tooling options it provides developers. Often these frontends aim to simplify the power and complexity of "Git" with shorthands such as "git sync" which usually fetches the latest of a branch and pushes changes to the remote.
 
-Within this tooling also often comes the means to resolve merge conflicts. Within "Visual Studio 2022" this can be found under view/git changes (see [a relative link](../../sources.md)).
+Within this tooling also often comes the means to resolve merge conflicts. Within "Visual Studio 2022" this can be found under view/git changes (see [sources.md](../../sources.md)).
 
 ## Debugging
 

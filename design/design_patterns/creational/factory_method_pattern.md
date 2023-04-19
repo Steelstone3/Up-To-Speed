@@ -20,4 +20,4 @@ The Factory Method pattern suggests that you replace direct object construction 
 
 ## UML
 
-![Alt text](../../../../assests/factory_pattern.svg)
+![factorn pattern](../../../assests/factory_pattern.svg)

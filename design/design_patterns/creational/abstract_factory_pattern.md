@@ -22,7 +22,7 @@ The first thing the Abstract Factory pattern suggests is to explicitly declare i
 
 ### UML Part 1
 
-![Alt text](../../../../assests/abstract_factory_pattern_1.svg)
+![abstract factory pattern part 1](../../../assests/abstract_factory_pattern_1.svg)
 
 ### Solution Part 2
 
@@ -30,4 +30,4 @@ The next move is to declare the Abstract Factory—an interface with a list of c
 
 ### UML Part 2
 
-![Alt text](../../../../assests/abstract_factory_pattern_%202.svg)
+![abstract factory pattern part 2](../../../assests/abstract_factory_pattern_2.svg)
