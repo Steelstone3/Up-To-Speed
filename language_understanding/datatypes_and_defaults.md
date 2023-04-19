@@ -1,4 +1,4 @@
-# Datatypes
+# Datatypes & Defaults
 
 ## Introduction
 
@@ -21,3 +21,10 @@ short | 16-bit signed integer type | -32,768 to 32,767 | 0
 uint | 32-bit unsigned integer type | 0 to 4,294,967,295 | 0
 ulong | 64-bit unsigned integer type | 0 to 18,446,744,073,709,551,615 | 0
 ushort | 16-bit unsigned integer type | 0 to 65,535 | 0
+
+## Object Type
+
+Type | Represents | Default Value
+:-- | :--: | :--:
+Class | a template to create objects | null
+String | an array of char to represent text | null
