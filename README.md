@@ -19,7 +19,7 @@ Design Fundamentals | Design Patterns | None | Factory, Builder, Decorator, Comm
 Design Fundamentals | Code Smells | None | | Hybrid
 Coding | Architectural Design Patterns | None | MVP, MVVM | Hybrid
 Design Fundamentals | Designing Object Oriented Code | Passing By Value and Reference | UML, SOLID, DRY, Clean Code | Theory
-Design Fundamentals | Designing Testable Code | Designing Object Oriented Code | Aggregatation, Composition, Coupling, Test Doubles | Theory
+Design Fundamentals | Designing Testable Code | Designing Object Oriented Code | Aggregation, Composition, Coupling, Test Doubles | Theory
 Coding | Design With TDD | Design Fundamentals | Outside-In TDD, Bank Kata, Mars Rover Kata | Practical
 Design Fundamentals | Frontend Archiecture Patterns | None | Event Subscriber - Publisher Model, Mediator | Theory
 Coding | MVVM Front End Development With TDD | Design With TDD, Roman Numeral Kata | Frontend Roman Numeral Kata | Practical
