@@ -22,7 +22,7 @@ uint | 32-bit unsigned integer type | 0 to 4,294,967,295 | 0
 ulong | 64-bit unsigned integer type | 0 to 18,446,744,073,709,551,615 | 0
 ushort | 16-bit unsigned integer type | 0 to 65,535 | 0
 
-## Object Type
+## Object Types
 
 Type | Represents | Default Value
 :-- | :--: | :--:
