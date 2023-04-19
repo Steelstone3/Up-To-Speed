@@ -17,17 +17,17 @@ In C#, data structures are used to organize and store data in a way that enables
 > - Linked Lists: Linked lists are used to store a collection of elements that are connected through a series of nodes. Each node contains an element and a reference to the next node in the list.
 >
 > - Trees: Trees are used to store a collection of elements in a hierarchical structure. Each element is called a node, and nodes are connected through parent-child relationships.
->
-> - Graphs: Graphs are used to store a collection of elements that are connected through a set of edges. Each element is called a vertex, and vertices are connected through edges.
 
 ## Data Structures
+
+T represents a generic meaning these data structures can take any type with the same behaviours for the data structure itself.
 
 Type | Represents | Default Value
 :-- | :--: | :--:
 int[] | Array | null
-List\<int> | List collection | null
-Stack\<int> | Stack | null
-Queue\<int> | Queue | null
-Dictionary\<char, int> | Dictionary of key-value pairs where char represents the key and int the value | null
-
-TODO: LinkedList, Trees, Graphs
+List\<T> | List collection | null
+Stack\<T> | Stack | null
+Queue\<T> | Queue | null
+Dictionary\<TKey, TValue> | Dictionary of key-value pairs where TKey represents the key and TValue the value | null
+LinkedList\<T> | LinkedList | null
+Tree\<T> | Tree | null
