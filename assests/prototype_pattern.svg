@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="411px" preserveAspectRatio="none" style="width:343px;height:411px;background:#FFFFFF;" version="1.1" viewBox="0 0 343 411" width="343px" zoomAndPan="magnify"><defs/><g><g id="elem_HumanSkinCell"><rect fill="#F1F1F1" height="50.1358" style="stroke:#181818;stroke-width:0.5;" width="127" x="7" y="161.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="22.5" y="178.4659">HumanSkinCell</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="133" y1="184.5679" y2="184.5679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="13" y="203.5339">(calls) clone(): Cell</text></g><!--MD5=[e2d7ac08d9dce27e712eb3d738e272b1]
+class CellPrototype--><g id="elem_CellPrototype"><rect codeLine="6" fill="#F1F1F1" height="67.0679" id="CellPrototype" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="98" y="7"/><ellipse cx="113" cy="23" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M115.0938,29.5 L110.1875,29.5 L110.1875,28.125 L111.6094,27.8125 L111.6094,18.5313 L110.1875,18.1875 L110.1875,16.8281 L115.0938,16.8281 L115.0938,18.1875 L113.6719,18.5313 L113.6719,27.8125 L115.0938,28.125 L115.0938,29.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="85" x="127" y="28.432">CellPrototype</text><line style="stroke:#181818;stroke-width:0.5;" x1="99" x2="214" y1="39" y2="39"/><ellipse cx="109" cy="54.034" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="118" y="57.9659">clone: Cell</text><line style="stroke:#181818;stroke-width:0.5;" x1="99" x2="214" y1="66.0679" y2="66.0679"/></g><!--MD5=[fea3dc74c7473bae0133d22265a91e2f]
+class Cell--><g id="elem_Cell"><rect codeLine="10" fill="#F1F1F1" height="105.2038" id="Cell" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="148" x="169.5" y="134"/><ellipse cx="227.75" cy="150" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M227.8594,145.2813 Q226.9375,145.2813 226.2031,145.5938 Q225.4844,145.9063 224.9844,146.5 Q224.4844,147.0781 224.2031,147.9531 Q223.9375,148.8281 223.9375,149.9219 Q223.9375,151.3594 224.375,152.4063 Q224.8281,153.4531 225.6719,154 Q226.5313,154.5469 227.8438,154.5469 Q228.625,154.5469 229.3125,154.4219 Q230.0156,154.2813 231.0156,153.9688 L231.0156,155.8438 Q230.1563,156.1719 229.3906,156.2969 Q228.6406,156.4219 227.625,156.4219 Q225.7031,156.4219 224.3906,155.625 Q223.0938,154.8125 222.4375,153.3438 Q221.7813,151.8594 221.7813,149.8906 Q221.7813,148.4688 222.1719,147.2969 Q222.5781,146.1094 223.3594,145.2344 Q224.1406,144.3594 225.2813,143.8906 Q226.4219,143.4063 227.8906,143.4063 Q228.8438,143.4063 229.7344,143.6094 Q230.6406,143.7969 231.5781,144.2656 L230.75,146.0469 Q229.9688,145.6719 229.3125,145.4844 Q228.6563,145.2813 227.8594,145.2813 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="248.25" y="155.432">Cell</text><line style="stroke:#181818;stroke-width:0.5;" x1="170.5" x2="316.5" y1="166" y2="166"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="177.5" y="178.034"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="189.5" y="184.9659">celliness: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="170.5" x2="316.5" y1="193.0679" y2="193.0679"/><ellipse cx="180.5" cy="208.1019" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="189.5" y="212.0339">Cell(CellPrototype)</text><ellipse cx="180.5" cy="227.1698" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="189.5" y="231.1018">Clone(): Cell</text></g><!--MD5=[97d8131aac443c370c17b6a7494aac17]
+class SkinCell--><g id="elem_SkinCell"><rect codeLine="16" fill="#F1F1F1" height="105.2038" id="SkinCell" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="185" x="151" y="299"/><ellipse cx="214.75" cy="315" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M214.8594,310.2813 Q213.9375,310.2813 213.2031,310.5938 Q212.4844,310.9063 211.9844,311.5 Q211.4844,312.0781 211.2031,312.9531 Q210.9375,313.8281 210.9375,314.9219 Q210.9375,316.3594 211.375,317.4063 Q211.8281,318.4531 212.6719,319 Q213.5313,319.5469 214.8438,319.5469 Q215.625,319.5469 216.3125,319.4219 Q217.0156,319.2813 218.0156,318.9688 L218.0156,320.8438 Q217.1563,321.1719 216.3906,321.2969 Q215.6406,321.4219 214.625,321.4219 Q212.7031,321.4219 211.3906,320.625 Q210.0938,319.8125 209.4375,318.3438 Q208.7813,316.8594 208.7813,314.8906 Q208.7813,313.4688 209.1719,312.2969 Q209.5781,311.1094 210.3594,310.2344 Q211.1406,309.3594 212.2813,308.8906 Q213.4219,308.4063 214.8906,308.4063 Q215.8438,308.4063 216.7344,308.6094 Q217.6406,308.7969 218.5781,309.2656 L217.75,311.0469 Q216.9688,310.6719 216.3125,310.4844 Q215.6563,310.2813 214.8594,310.2813 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="235.25" y="320.432">SkinCell</text><line style="stroke:#181818;stroke-width:0.5;" x1="152" x2="335" y1="331" y2="331"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="159" y="343.034"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="159" x="171" y="349.9659">membraneThickness: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="152" x2="335" y1="358.0679" y2="358.0679"/><ellipse cx="162" cy="373.1019" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="122" x="171" y="377.0339">Cell(CellPrototype)</text><ellipse cx="162" cy="392.1698" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="171" y="396.1018">Clone(): Cell</text></g><!--MD5=[b9440ba6719ee8ec7eb4c0fbf24dee19]
+reverse link CellPrototype to Cell--><g id="link_CellPrototype_Cell"><path codeLine="22" d="M186.6,91.32 C194.88,105.03 203.89,119.93 212.23,133.75 " fill="none" id="CellPrototype-backto-Cell" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="180.59,94.91,176.24,74.18,192.58,87.67,180.59,94.91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[886028994c0f4e871f79ae582ba2bd91]
+reverse link Cell to SkinCell--><g id="link_Cell_SkinCell"><path codeLine="23" d="M243.5,259.49 C243.5,272.79 243.5,286.44 243.5,298.98 " fill="none" id="Cell-backto-SkinCell" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="236.5,259.07,243.5,239.07,250.5,259.07,236.5,259.07" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[704990abb586a644cb491e5f6dedc83e]
+reverse link CellPrototype to HumanSkinCell--><g id="link_CellPrototype_HumanSkinCell"><path codeLine="24" d="M134.33,78.62 C118.74,104.72 98.34,138.88 84.85,161.48 " fill="none" id="CellPrototype-backto-HumanSkinCell" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="136.99,74.18,128.9296,79.8395,134.4175,78.4675,135.7895,83.9554,136.99,74.18" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bea17115c8823a5a15236bfee9268eac]
+@startuml
+
+object HumanSkinCell {
+    (calls) clone(): Cell
+}
+
+interface CellPrototype {
+    +clone: Cell
+}
+
+class Cell {
+    -celliness: int
+    +Cell(CellPrototype)
+    +Clone(): Cell
+}
+
+class SkinCell {
+    -membraneThickness: int
+    +Cell(CellPrototype)
+    +Clone(): Cell
+}
+
+CellPrototype <|- - Cell
+Cell <|- - SkinCell
+CellPrototype <- - HumanSkinCell
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>

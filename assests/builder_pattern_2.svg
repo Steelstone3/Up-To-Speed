@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="183px" preserveAspectRatio="none" style="width:145px;height:183px;background:#FFFFFF;" version="1.1" viewBox="0 0 145 183" width="145px" zoomAndPan="magnify"><defs/><g><!--MD5=[ade28e922f8fd3dfc1722f8c9f276c2e]
+class HouseBuilder--><g id="elem_HouseBuilder"><rect codeLine="2" fill="#F1F1F1" height="162.4075" id="HouseBuilder" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="7" y="7"/><ellipse cx="24.25" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M24.3594,18.2813 Q23.4375,18.2813 22.7031,18.5938 Q21.9844,18.9063 21.4844,19.5 Q20.9844,20.0781 20.7031,20.9531 Q20.4375,21.8281 20.4375,22.9219 Q20.4375,24.3594 20.875,25.4063 Q21.3281,26.4531 22.1719,27 Q23.0313,27.5469 24.3438,27.5469 Q25.125,27.5469 25.8125,27.4219 Q26.5156,27.2813 27.5156,26.9688 L27.5156,28.8438 Q26.6563,29.1719 25.8906,29.2969 Q25.1406,29.4219 24.125,29.4219 Q22.2031,29.4219 20.8906,28.625 Q19.5938,27.8125 18.9375,26.3438 Q18.2813,24.8594 18.2813,22.8906 Q18.2813,21.4688 18.6719,20.2969 Q19.0781,19.1094 19.8594,18.2344 Q20.6406,17.3594 21.7813,16.8906 Q22.9219,16.4063 24.3906,16.4063 Q25.3438,16.4063 26.2344,16.6094 Q27.1406,16.7969 28.0781,17.2656 L27.25,19.0469 Q26.4688,18.6719 25.8125,18.4844 Q25.1563,18.2813 24.3594,18.2813 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="38.75" y="28.432">HouseBuilder</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="130" y1="39" y2="39"/><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="130" y1="47" y2="47"/><ellipse cx="18" cy="62.034" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="27" y="65.9659">buildWalls()</text><ellipse cx="18" cy="81.1019" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="27" y="85.0339">buildDoors()</text><ellipse cx="18" cy="100.1698" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="27" y="104.1018">buildWindows()</text><ellipse cx="18" cy="119.2377" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="27" y="123.1697">buildRoof()</text><ellipse cx="18" cy="138.3056" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="27" y="142.2376">buildGarage()</text><ellipse cx="18" cy="157.3735" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="27" y="161.3055">build(): House</text></g><!--MD5=[487d6a5b9837329c607743c40a5b4fe6]
+@startuml
+
+class HouseBuilder {
+    +buildWalls()
+    +buildDoors()
+    +buildWindows()
+    +buildRoof()
+    +buildGarage()
+    +build(): House
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: GB
+--></g></svg>
