@@ -14,8 +14,6 @@ By focusing on units of code the risks for bugs within each tested unit are redu
 
 ## Example
 
-### Example Introduction
-
 Inside-out test driven development is best placed when working through the behaviours of a unit. This can be demonstrated with the Roman Numeral Kata. Follow along with the steps in the example following the red, green, refactor, repeat process.
 
 ### Kata
