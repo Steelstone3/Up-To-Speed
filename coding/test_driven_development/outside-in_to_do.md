@@ -10,7 +10,7 @@ In order to design code using outside-in TDD we must ensure we use the same test
 
 For this to be the case the object in question must override an interface passed in as a parameter through the constructor or method being tested.
 
-### Example Using Constructor Parameters
+### Example Of Structure Using Constructor Parameters
 
 ```cs
 public class ExampleClass : IExampleClass
@@ -32,7 +32,7 @@ public class ExampleClass : IExampleClass
 }
 ```
 
-### Example Using The Method Parameters
+### Example Of Structure Using Method Parameters
 
 ```cs
 public class ExampleClass : IExampleClass
@@ -57,16 +57,22 @@ In the example below any changes made to how the component class works will have
 ```cs
 public class ExampleClass : IExampleClass
 {
-    // Test doubles can override "component" and use the same reference
     public void SomeMethod() 
     {
-        // Using the same reference we are then able to test this behaviour is executed
+        // Using the concrete directly couples the behaviour of "Component" to "ExampleClass"
+        // This violates the D in SOLID 
         new Component().SomeActionFromTheComponent();
     }
 }
 ```
 
 ## Best Practise
+
+* Focus on covering the public interface of each class (public methods)
+* Ensure edge case behaviours are covered in the tests by thinking about the ways in which the method can be used and abused through stubbing.
+* Ensure components are making expected method calls usings mocks.
+* Create fakes for complex external systems (mainly).
+* Use a mocking library.
 
 ## Example
 
