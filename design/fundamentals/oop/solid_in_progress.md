@@ -188,6 +188,85 @@ Where both Cat and Dog are valid objects that can be passed into this class' met
 
 ## Interface Segregation
 
+The interface segregation principle states "Clients should not be forced to depend upon interfaces that they do not use."
+
+This is to state that when a sub-class is not using a method on the base class then it should only apply to the sub-classes that do use it.
+
+For example
+
+```cs
+class Animal {
+  void Walk() {...}
+  void Crawl() {...}
+  void Run() {...}
+  void Breath() {...}
+  void MakeNoise() {...}
+  void PlayFetch() {...}
+}
+
+class Dog : Animal {
+}
+
+class Cat : Animal {
+  void Scratch() {...}
+}
+```
+
+Cat's don't play fetch so in this case we would want to move "play fetch" to the first place it becomes relevant to all sub-classes
+
+In this case Dog is the only animal that "plays fetch"
+
+```cs
+class Animal {
+  void Walk() {...}
+  void Crawl() {...}
+  void Run() {...}
+  void Breath() {...}
+  void MakeNoise() {...}
+}
+
+class Dog : Animal {
+  void PlayFetch() {...}
+}
+
+class Cat : Animal {
+  void Scratch() {...}
+}
+```
+
+This can also apply to interfaces for example
+
+```cs
+interface IFile {
+  void Load();
+  void Save();
+  void Print();
+  void SendByEmail();
+}
+
+class Png : IFile {...}
+class Exe : IFile {...}
+```
+
+In the example above many email providers don't allow executables to be sent as it may compromise their servers that provide email services
+
+```cs
+interface IFile {
+  void Load();
+  void Save();
+  void Print();
+}
+
+interface ISendable {
+  void SendByEmail();
+}
+
+class Png : IFile, ISendable {...}
+class Exe : IFile {...}
+```
+
+and now this no longer violates I as Exe can use the entire IFile interface
+
 ## Dependency Inversion
 
 Depend on abstractions and not on concrete types
