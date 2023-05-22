@@ -270,3 +270,26 @@ and now this no longer violates I as Exe can use the entire IFile interface
 ## Dependency Inversion
 
 Depend on abstractions and not on concrete types
+
+The idea here being any abstract type can use any concrete type that inherits from the abstract type.
+
+```cs
+interface IFile {
+  void Load();
+  void Save();
+  void Print();
+}
+
+class Png : IFile {...}
+class Jpeg : IFile {...}
+
+class FileController {
+  void Save(IFile file) {
+    file.Save();
+  }
+}
+```
+
+In this example anything that inherits from the abstract type of IFile can be used on the "save" method of file controller. This means that we have flexibilty such as to provide a new png implementation concurrently to safely refactor away the old type or implement a completely new sub-class that fufils the contract of IFile.
+
+We can also use dependency injection to override IFile with a test double (dedicated section exists on test doubles).
