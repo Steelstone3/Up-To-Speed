@@ -293,3 +293,33 @@ class FileController {
 In this example anything that inherits from the abstract type of IFile can be used on the "save" method of file controller. This means that we have flexibilty such as to provide a new png implementation concurrently to safely refactor away the old type or implement a completely new sub-class that fufils the contract of IFile.
 
 We can also use dependency injection to override IFile with a test double (dedicated section exists on test doubles).
+
+```cs
+class Png {
+  void Load();
+  void Save();
+  void Print();
+}
+
+class Jpeg : IFile {
+  void Load();
+  void Save();
+  void Print();
+}
+
+class FileController {
+  void SavePng(Png png) {
+    png.Save();
+  }
+
+  void SaveJpeg(Jpeg jpeg) {
+    jpeg.Save();
+  }
+}
+```
+
+In this above example there are three main issues. Firstly save png and save jpeg can't have there respective parameters overriden with test doubles meaning both these methods within file controller are "untestable".
+
+Secondly the fact file controller has two methods that both save is an indicator that we should use polymorphism and abstract away the concrete types being used.
+
+Thirdly as a direct result of having two methods that both save our code is WET.
