@@ -188,8 +188,6 @@ Where both Cat and Dog are valid objects that can be passed into this class' met
 
 ## Interface Segregation
 
-
-
 ## Dependency Inversion
 
 Depend on abstractions and not on concrete types
