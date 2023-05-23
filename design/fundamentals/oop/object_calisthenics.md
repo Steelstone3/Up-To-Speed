@@ -68,6 +68,8 @@ This is to enforce the power of polymoriphism and to remove un-needed else state
 
 ## Rule 3: Wrap All Primitives and Strings (Value Objects)
 
+Can return primatives from methods but must use abstract wrapped types for parameters
+
 What is allowed
 
 ```cs
