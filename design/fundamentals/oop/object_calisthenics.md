@@ -17,16 +17,25 @@
 What is allowed
 
 ```cs
-Dog.WagsTail();
+if(someCondition1 && someCondition2)
+{
+    DoTheThing();
+}
 ```
 
 What is not allowed
 
 ```cs
-Dog.Tail.Wags();
+if(someCondition1)
+{
+    if(someCondition2) 
+    {
+        DoTheThing();
+    }
+}
 ```
 
-This is to ensure simpler shorter methods
+This is to ensure simpler and more understandable flow within methods
 
 ## Rule 2: Don’t Use The ELSE Keyword
 
@@ -241,3 +250,21 @@ class Ninja {
 ```
 
 This is to enforce encapsulation in all value objects
+
+## Skippy's Custom Rule 9: No public Setters on Properties
+
+The previous rule 9 is near impossible to not violate at some point. Therefore with the exception of patterns that demand public setters on properies such as MVVM public setters are not to be used to keep in the overall spirit of the previous rule whilst making it workable for the actual codebase. Where possible the previous rule 9 still applies.
+
+What is allowed
+
+```cs
+public int Damage {get; private set;}
+
+public int NumberOfAttacks {get; protected set;}
+```
+
+What is not allowed
+
+```cs
+public int Damage {get; set;}
+```
