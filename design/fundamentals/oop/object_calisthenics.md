@@ -253,7 +253,7 @@ class Ninja {
 
 This is to enforce encapsulation in all value objects
 
-## Skippy's Custom Rule 9: No public Setters on Properties
+## Skippy's Custom Rule 9: No Public Setters On Properties
 
 The previous rule 9 is near impossible to not violate at some point. Therefore with the exception of patterns that demand public setters on properies such as MVVM public setters are not to be used to keep in the overall spirit of the previous rule whilst making it workable for the actual codebase. Where possible the previous rule 9 still applies.
 
