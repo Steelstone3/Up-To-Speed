@@ -11,7 +11,7 @@
 > 7. Keep all entities small
 > 8. No classes with more than two instance variables
 > 9. No getters/setters/properties
-> 9. Skippy's Custom Rule 9: No Public Setters On Properties
+> 10. Skippy's Custom Rule 9: No Public Setters On Properties
 
 ## Rule 1: One Level Of Indentation Per Method
 
@@ -254,7 +254,7 @@ class Ninja {
 
 This is to enforce encapsulation in all value objects
 
-## Skippy's Custom Rule 9: No Public Setters On Properties
+## Skippy's Custom Rule 10: No Public Setters On Properties
 
 The previous rule 9 is near impossible to not violate at some point. Therefore with the exception of patterns that demand public setters on properies such as MVVM public setters are not to be used to keep in the overall spirit of the previous rule whilst making it workable for the actual codebase. Where possible the previous rule 9 still applies.
 
