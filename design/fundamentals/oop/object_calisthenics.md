@@ -11,6 +11,7 @@
 > 7. Keep all entities small
 > 8. No classes with more than two instance variables
 > 9. No getters/setters/properties
+> 9. Skippy's Custom Rule 9: No Public Setters On Properties
 
 ## Rule 1: One Level Of Indentation Per Method
 
