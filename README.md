@@ -16,7 +16,7 @@ Coding | Driving Algorithms With TDD | None | Inside-Out TDD, Roman Numeral Kata
 Language Understanding | Passing By Value and Reference | None | Passing By Value, Passing By Reference | Hybrid
 Language Understanding | Stack and Heap Memory | None | Types Of Memory Used By Languages | Theory
 Design Fundamentals | Design Patterns | None | Factory, Builder, Decorator, Command, Memento, Deep/ Shallow Cloning | Hybrid
-Design Fundamentals | Code Smells | None | | Hybrid
+Design Fundamentals | Code Smells | None | Bloaters, OOP Abusers, Change Preventers, Depensers, Couplers | Hybrid
 Coding | Architectural Design Patterns | None | MVP, MVVM | Hybrid
 Design Fundamentals | Designing Object Oriented Code | Passing By Value and Reference | UML, SOLID, DRY, Clean Code | Theory
 Design Fundamentals | Designing Testable Code | Designing Object Oriented Code | Aggregation, Composition, Coupling, Test Doubles | Theory
