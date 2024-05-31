@@ -1,4 +1,4 @@
-# Motivation
+# Motivation Why We Do Things
 
 ## Motivation in Minecraft
 
@@ -35,7 +35,7 @@ Getting into an example then in minecraft, to my knowledge of the game at least,
 
 However within these two main ways are options. As I alluded to earlier an iron farm exploits game mechanics for generating iron golems and murders said golems in lava collecting the iron they drop on death.
 
-However there is nothing stopping you wondering into a village in the early game with a wooden sword and taking the iron from the iron golems by force. After all the same mechanic will re-spawn the iron golem as in the contraption.
+However there is nothing stopping you wondering into a village in the early game with a stone sword and taking the iron from the iron golems by force by pillaring up by 3 blocks. After all the same mechanic will re-spawn the iron golem as in the contraption.
 
 Another way of collecting iron is through mining it. Often players create a mineshaft at a particular "Y-Level" (in game world depth) to exploit the most prominent natural spawning of iron blocks at that level.
 
