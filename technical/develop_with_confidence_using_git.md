@@ -181,29 +181,31 @@ An editor will then pop up. Use the following as an example:
 
 > [push]
 >
->   autoSetupRemote = true
-> 
+> autoSetupRemote = true
+>
 > [pull]
 >
->   rebase = true
-> 
+> rebase = true
+>
 > [credential]
 >
->   helper = store
-> 
+> helper = store
+>
+> helper = cache --timeout 60
+>
 > [rebase]
 >
->    autoStash = true
-> 
+> autoStash = true
+>
 > [user]
 >
->   email = 
+> email =
 >
->   name = 
+> name =
 >
 > [core]
 >
->   editor = hx
+> editor = hx
 
 The example lays out some important configurations.
 
@@ -211,7 +213,7 @@ The example lays out some important configurations.
 
 This configuration makes it so that git pull by default uses rebase. This keeps the commit history linear.
 
-> user.email = "Company@Company.co.uk"
+> user.email = "<Company@Company.co.uk>"
 >
 > user.name = "Skippy"
 
@@ -243,21 +245,21 @@ For example:
 
 > [remote "origin"]
 >
-> 	 url = https://github.com/Steelstone3/Up-To-Speed.git
+> url = <https://github.com/Steelstone3/Up-To-Speed.git>
 >
->	 fetch = +refs/heads/\*:refs/remotes/origin/\*
+> tch = +refs/heads/\*:refs/remotes/origin/\*
 >
 > [branch "main"]
 >
-> 	 remote = origin
+> remote = origin
 >
-> 	 merge = refs/heads/main
+> merge = refs/heads/main
 >
 > [branch "blog"]
 >
-> 	 remote = origin
+> remote = origin
 >
-> 	 merge = refs/heads/blog
+> merge = refs/heads/blog
 
 The most important parts about the local configuration is that the remote "origin" is setup correctly
 
@@ -321,47 +323,41 @@ In the git configuration file add the following appended to bottom of the file:
 
 > [alias]
 >
->   ce = config --edit
+> ce = config --edit
 >
->   ceg = config --global --edit
+> ceg = config --global --edit
 >
->   co = checkout
+> clf = clean -d -f -x
 >
->   br = branch --all
+> co = checkout
 >
->   brm = branch --merged
+> br = branch
 >
->   brd = branch --delete
+> a = add --all
 >
->   brdf = branch --delete --force
+> c = commit --message \"update\"
 >
->   brdr = push --delete origin
+> st = status
 >
->   a = add --all
+> d = diff
 >
->   c = commit --message \"update\"
+> pu = push
 >
->   st = status
+> pf = push --force-with-lease
 >
->   d = diff
+> pl = pull --rebase
 >
->   pu = push
+> l = log --pretty=oneline
 >
->   pl = pull --rebase
+> ll = log
 >
->   l = log --pretty=oneline
+> f = fetch --prune
 >
->   ll = log
+> ri = rebase --interactive
 >
->   pf = push --force-with-lease
+> rc = rebase --continue
 >
->   f = fetch --prune
->
->   ri = rebase --interactive
->
->   rc = rebase --continue
->
->   ra = rebase --abort
+> ra = rebase --abort
 
 #### Aliasing Commands
 

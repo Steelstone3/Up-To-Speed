@@ -53,7 +53,7 @@ This is a guide feel free to include or ignore sections as you see fit.
   - mcfly
   - ytop
   - bandwhich
-  - speedtest-rs
+  - zoxide
 - Cosmic Desktop Environment
 - LeftWM
 - Development
@@ -340,8 +340,6 @@ Then add aliases to the file like so:
 >
 > alias grep = rg
 >
-> alias cat = bat
->
 > alias find = fd
 >
 > alias history = mcfly
@@ -352,18 +350,120 @@ Then add aliases to the file like so:
 >
 > alias network = bandwhich
 >
-> alias tldr = tldr
+> alias man = tldr
 >
 > alias disk = dust
+>
+> alias cd = zoxide
 
 Keep in mind that string aliases are currently not possible as of version 0.95. The following example WON'T WORK:
 
 > ~alias git-sync = "git add --all; git commit; git pull --rebase; git push"~
+
+## Utilities
+
+Install each of the following using
+
+> cargo install _____
+
+- bat
+- exa
+- ripgrep (rg)
+- fd-find (fd)
+- mcfly
+- procs
+- ytop
+- bandwhich
+- tealdeer (tldr)
+- du-dust
+- zoxide
+
+### Bat
+
+Replacement of cat written in rust.
+
+### Exa
+
+Replacement of ls written in rust.
+
+### Ripgrep
+
+Replacement of grep written in rust.
+
+Usage:
+
+> rg filter-term
+
+### Fd-Find
+
+Replacement of find written in rust.
+
+Usage:
+
+> fd search-term
+
+### Mcfly
+
+Replacement of history written in rust.
+
+### Procs
+
+Replacement of ps written in rust.
+
+### Ytop
+
+Replacement of top/ htop written in rust.
+
+### Bandwhich
+
+Command line application for scanning devices connected to a network written in rust.
+
+### Tealdeer
+
+Alternative of man providing a shortened manual page of application use written in rust.
+
+Usage:
+
+> tldr application
+
+### Du-Dust
+
+Command line application for displaying storage information written in rust
+
+Usage:
+
+> dust
+
+### Zoxide
+
+Replacement of cd written in rust. This utility does require some additional setup
+
+Usage:
+
+> z folder
+
+#### Zoxide Configuration File
+
+Run the following command to create a nushell configuration file
+
+> zoxide init nushell | save -f ~/.cache/zoxide/zoxide.nu
+
+#### Zoxide Integration With Nushell
+
+> hx ~/.config/nushell/env.nu
+
+Then add the following to the bottom of the configuration file
+
+> source ~/.cache/zoxide/zoxide.nu
+>
+> alias cd = z
 
 ## Experimental
 
 These suggestions aren't ready for prime time just yet so use at your own risk
 
 ### Coreutils
+
+Coreutils is a cross platform project designed to bring unix utilities in a standardised way. The project is currently in development where some of the utilities are stable and some are not so use at your own risk.
 
 > cargo install coreutils
