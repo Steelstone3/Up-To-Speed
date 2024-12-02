@@ -88,11 +88,11 @@ To not use a model like the one suggested I think risks having "AI compilers" in
 
 ## As Testers
 
-The nature of the way in which AI is built means it sees thousands upon thousands of examples of code. It is therefore entirely possible for AI to become a "white box" tester (a tester who knows the internals of the code). There are many standards that developers have to follow and I am not just referring to standard paradigm rules.
+The nature of the way in which AI is built means it sees thousands upon thousands of examples of code. It is therefore entirely possible for AI to become a "white box" tester (a tester who knows the internals of the system). There are many standards that developers have to follow and I am not just referring to standard paradigm rules.
 
 AI could be used to detect breaches in security within WASM's guidelines, industry specific guidelines or just simply hunting down bugs in code with an integrated compiler and unit tests with possible suggestions for additional unit tests that need to be written like I described before.
 
-Additionally AI could perform rapid black box (where the tester is unaware of the internals of the code) testing for an application. Providing the AI with parameters and control of a sandbox to run the application in through multiple hosted virtual machines an AI could be tasked with running exploratory testing of an application. The AI could then write the bug reports for a human to approve and place into the backlog of the project.
+Additionally AI could perform rapid "black box" (where the tester is unaware of the internals of the system) testing for an application. Providing the AI with parameters and control of a sandbox to run the application in through multiple hosted virtual machines an AI could be tasked with running exploratory testing of an application. The AI could then write the bug reports for a human to approve and place into the backlog of the project.
 
 ## As A Colleague
 
