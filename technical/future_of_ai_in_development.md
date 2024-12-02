@@ -58,7 +58,7 @@ The future workflow might look something like:
 
 There is a near industry wide acceptance of the trade off of absolute control that writing code in assembly provides is worth it for the readability, maintainability and scalability that compiled high level languages provide.
 
-The main reason for this is the quality of the end product is of an acceptable standard to the end user. In other words languages like C and Rust compile down to near assembly levels of performance where more flexible languages with further abstractions such as weak typed, garbage collection or interpreters provide performance 2x to 5x worse than the best case scenario for the hardware it is running which with modern computer hardware still provides adequate performance in lots of cases (remember that all systems are real time systems).
+The main reason for this is the quality of the end product is of an acceptable standard to the end user. In other words languages like C and Rust compile down to near assembly levels of performance where more flexible languages with further abstractions such as weak typed, garbage collection or interpreters provide performance 2x to 5x worse than the best case scenario for the hardware it is running which with modern computer hardware still provides adequate performance in lots of cases.
 
 It is with this in mind an AI generated program may one day fit an acceptance of the end user's needs.
 
