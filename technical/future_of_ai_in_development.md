@@ -72,11 +72,13 @@ An example of this might look like:
 >
 > Then: the "library" should move the "book" entry into the "lent books" table
 
-A prompt like above should serve to create CRUD statements for the library's book management system and integrate the feature as described above. Again without being able to see the internals of the high level code being generated (one layer of abstraction down) this could lead the application to poor performance or security neither of which are ideal for a mission critical system such as the example above.
+A prompt like above should serve to create CRUD statements for the library's book management system and integrate the feature as described above.
 
 ### Levels Of Abstraction
 
-Whilst this idea is cool I feel that we would need to rethink the means by which the current layers of programming work.
+In the example above without being able to see the internals of the high level code being generated (one layer of abstraction down) this could lead the application to poor performance or security neither of which are ideal for a mission critical system such as the example above.
+
+From the example above therefore we would need to rethink the means by which the current layers of programming work.
 
 Returning to the point about compilers being an accepted compromise; a programmer cannot make meaningful change to the performance of an application by changing the assembly. This is to say any changes to the assembly (which is further compiled down to machine code) are not reflected in the high level language. If a developer was to change the assembly they would have to endlessly continue to do so to integrate their changes with the constantly compiled and changing code of the high level programming language.
 
