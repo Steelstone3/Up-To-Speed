@@ -76,7 +76,7 @@ A prompt like above should serve to create CRUD statements for the library's boo
 
 ### Levels Of Abstraction
 
-In the example above without being able to see the internals of the high level code being generated (one layer of abstraction down) this could lead the application to poor performance or security neither of which are ideal for a mission critical system such as the example above.
+In the example above without being able to see the internals of the high level code being generated (one layer of abstraction down) the application may have poor performance or security neither of which are ideal for a mission critical system.
 
 From the example above therefore we would need to rethink the means by which the current layers of programming work.
 
