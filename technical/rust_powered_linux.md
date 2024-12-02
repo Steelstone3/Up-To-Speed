@@ -21,7 +21,7 @@ As just a few examples.
 
 ## Why Rust Powered Linux Userspace?
 
-As previously stated Rust offers high performance with both memory and thread safety. It is the second part that is particular useful for a "Linux Powered Userspace". 
+As previously stated Rust offers high performance with both memory and thread safety. It is the second part that is particular useful for a "Linux Powered Userspace".
 
 Applications written in performant languages (besides Rust) suffer from memory leaks and other issues that can compromise security. Rust isn't perfect in this department but it is a marked improvement on what has come before.
 
@@ -68,7 +68,7 @@ There are a few ways to install cargo.
 
 The main way is through rustup.
 
-> https://rustup.rs/
+> <https://rustup.rs/>
 
 However you package manager may have it avaliable in repositories to install.
 
@@ -76,7 +76,7 @@ However you package manager may have it avaliable in repositories to install.
 >
 > apt install cargo
 
-With cargo installed 
+With cargo installed
 
 ### Cargo Package Maintenance
 
@@ -215,7 +215,7 @@ Add the following to the config file
 > size = 24
 >
 > [[keyboard.bindings]]
-> 
+>
 > action = "ToggleFullscreen"
 >
 > key = "F11"
@@ -318,7 +318,7 @@ In the same env.nu file add the following line to use Starship
 
 You may want to consider some aliases to replace common commands with the rust alternatives we are going to use
 
-Add the following to 
+Add the following to
 
 > ~/config/nushell/env.nu
 >
