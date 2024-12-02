@@ -80,7 +80,7 @@ In the example above without being able to see the internals of the high level c
 
 From the example above therefore we would need to rethink the means by which the current layers of programming work.
 
-Returning to the point about compilers being an accepted compromise; a programmer cannot make meaningful change to the performance of an application by changing the assembly. This is to say any changes to the assembly (which is further compiled down to machine code) are not reflected in the high level language. If a developer was to change the assembly they would have to endlessly continue to do so to integrate their changes with the constantly compiled and changing code of the high level programming language.
+Returning to the point about compilers being an accepted compromise; a programmer cannot make meaningful change to the performance of an application by changing the assembly. This is to say any changes to the assembly (which is further compiled down to machine code) are not reflected in the high level language. If a developer was to change the assembly they would have to endlessly continue to do so integrating their changes with the constantly compiling and changing code of the high level programming language.
 
 This is not the case with some UI frameworks where changes in the graphical interface can be reflected back in the IDE and vice versa. This is a model proposed and one I think would need to be adopted if we were to go down the path I suggested above. Whilst an integrated assistant keeps the status quo the prompted AI "compiler" should allow developers access to the internal code being generated and in turn this should update the behavioral prompts for the features, deployment, dependencies/ technologies and so on.
 
