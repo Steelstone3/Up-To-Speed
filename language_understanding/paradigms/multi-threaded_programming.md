@@ -20,13 +20,13 @@ For example in the "game of life" the next state would need to be determined fro
 
 A deadlock happens when two or more threads are blocked indefinitely, waiting for each other to release the resources that they need. Careful design of resource allocation and synchronization is necessary to avoid deadlocks.
 
-This is more likely to occur when utalising lower level threading libraries.
+This is more likely to occur when utilizing lower level threading libraries.
 
 ### Starvation
 
 Starvation occurs when a thread is perpetually denied access to a resource, preventing it from making progress. Fair scheduling algorithms and resource allocation policies can help prevent starvation.
 
-## Best Practises
+## Best Practices
 
 ### Thread-Safe Data Structures
 

@@ -4,15 +4,15 @@
 
 Asynchronous programming is a means of providing non-blocking code-execution to the main program thread.
 
-The best types of usecases for asynchronous programming is when waiting on an external source to the program such as a database, website server and so on.
+The best types of use-cases for asynchronous programming is when waiting on an external source to the program such as a database, website server and so on.
 
 ## How It Works
 
-Running code provides the CPU something known as a task queue. In synchronous programming this queue (stored cache) is ran in order when resource becomes avaliable in the CPU.
+Running code provides the CPU something known as a task queue. In synchronous programming this queue (stored cache) is ran in order when resource becomes available in the CPU.
 
-Asynchronous programming allows for a task to sit outside of the queue and performs polling on the CPU to when resource becomes avaliable in the CPU where it can slot in to execute in a non-blocking way. Therefore asynchronous execution is performed in a synchronous execution when resource is avaliable. As developers therefore the consideration is the performance overhead of asynchronous programming and whether it is required.
+Asynchronous programming allows for a task to sit outside of the queue and performs polling on the CPU to when resource becomes available in the CPU where it can slot in to execute in a non-blocking way. Therefore asynchronous execution is performed in a synchronous execution when resource is available. As developers therefore the consideration is the performance overhead of asynchronous programming and whether it is required.
 
-Importantly UI libraries are typically ran on a UI thread therefore don't require non-blocking programming practises (asynchronous).
+Importantly UI libraries are typically ran on a UI thread therefore don't require non-blocking programming practices (asynchronous).
 
 ### Promises
 
